@@ -1,0 +1,72 @@
+html{
+    scroll-behavior: smooth;
+}
+
+#custom-cursor {
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+    position: fixed;
+    pointer-events: none;
+    transform: translate(-40%, -40%);
+    transition: all 150ms ease;
+    border-radius: 2px;
+}
+
+.view-cursor {
+    background-image: url('images/view-icon.png');
+    background-size: cover;
+    border: none;
+}
+
+body{
+    background-color: antiquewhite;
+    padding: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 2px 2px 5px black;
+    font-weight: 700;
+    color: rgb(45, 31, 6);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 60px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 100px;
+    font-weight: 900;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(65, 183, 189);
+    transition: all 400ms ease-in-out;
+    text-decoration: none;
+}
+
+.image {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 20px;
+}
+
+.image img {
+    height: 300px;
+}
